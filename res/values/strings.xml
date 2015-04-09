@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TesteDeMeteorito</string>
+    <string name="start_title">TESTE: É UM METEORITO?</string>
+    <string name="start_info">Esse teste ajuda você a identificar se a amostra que escolheu é ou não um meteorito. 
+        					  Ele é composto de perguntas que têm como resposta sim ou não e leva em consideração 
+        					  algumas propriedades do material. Então, se estiver pronto, clique em "Começar o Teste" !</string>
+    <string name="start_button">Começar o Teste</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    
+    <string name="is_meteorite_title">É UM METEORITO</string>
+    <string name="is_meteorite_text">Parabéns ! A amostra que você testou é realmente um meteorito.</string>
+    <string name="isnt_meteorite_title">NÃO É UM METEORITO</string>
+    <string name="isnt_meteorite_text">Não foi dessa vez ! Infelizmente a amostra que você testou não é um meteorito, tente novamente.</string>
+
+</resources>

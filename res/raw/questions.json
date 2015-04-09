@@ -1,0 +1,71 @@
+[{
+  "number": "1",
+  "title": "A AMOSTRA É ATRAÍDA POR ÍMÃ?",
+  "text": "Quase todos o meteoritos são atraídos por imã. A atração é mais forte nos metálicos, que são compostos basicamente de ferro, contudo é bem notável na maioria dos meteoritos rochosos essa característica.",
+  "image": "a",
+  "yes_link": "2",
+  "no_link": "4"
+},{
+  "number": "2",
+  "title": "É MUITO MAIS PESADO QUE AS OUTRAS ROCHAS?",
+  "text": "Comparada com uma rocha de tamanho semelhante, sua amostra é muito mais pesada?",
+  "image": "",
+  "yes_link": "3",
+  "no_link": "5"
+},{
+  "number": "3",
+  "title": "LIXE UMA BEIRADA. POR DENTRO É PRATEADA COMO AÇO?",
+  "text": "Com o auxílio de uma lixa, faça uma sessão polida em uma parte do material.",
+  "image": "a",
+  "yes_link": "9",
+  "no_link": "-1"
+},{
+  "number": "4",
+  "title": "É MAIS PESADO QUE AS OUTRAS ROCHAS?",
+  "text": "Comparada com uma rocha de tamanho semelhante, sua amostra é mais pesada?",
+  "image": "",
+  "yes_link": "-1",
+  "no_link": "7"
+},{
+  "number": "5",
+  "title": "TEM A CROSTA PRETA (ESCURA) SÓ POR FORA?",
+  "text": "",
+  "image": "a",
+  "yes_link": "6",
+  "no_link": "-1"
+},{
+  "number": "6",
+  "title": "NO SEU INTERIOR TEM PARTÍCULA COM BRILHO METÁLICO OU COR DE FERRUGEM?",
+  "text": "",
+  "image": "",
+  "yes_link": "0",
+  "no_link": "-1"
+},{
+  "number": "7",
+  "title": "POR DENTRO É BEM CLARO SE DESTACANDO DA CROSTA PRETA?",
+  "text": "",
+  "image": "a",
+  "yes_link": "8",
+  "no_link": "-1"
+},{
+  "number": "8",
+  "title": "PINGUE ÁGUA OXIGENADA. BORBULHOU?",
+  "text": "",
+  "image": "",
+  "yes_link": "-1",
+  "no_link": "10"
+},{
+  "number": "9",
+  "title": "TEM BOLHAS NA SUPERFÍCIE OU NO INTERIOR?",
+  "text": "",
+  "image": "a",
+  "yes_link": "-1",
+  "no_link": "0"
+},{
+  "number": "10",
+  "title": "SEU INTERIOR É CLARO OU TEM PINTAS CLARAS?",
+  "text": "",
+  "image": "",
+  "yes_link": "0",
+  "no_link": "-1"
+}]
