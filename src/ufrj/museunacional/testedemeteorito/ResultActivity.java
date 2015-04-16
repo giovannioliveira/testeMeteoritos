@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class ResultActivity extends Activity{
@@ -50,6 +51,22 @@ public class ResultActivity extends Activity{
 		}else{
 			tvTitle.setText(getString(R.string.isnt_meteorite_title));
 			tvText.setText(getString(R.string.isnt_meteorite_text));
+		}
+		
+		setTheme(isMeteorite);
+		
+	}
+	
+	private void setTheme(boolean isMeteorite){
+		
+		if(isMeteorite){
+			((LinearLayout) findViewById(R.id.llResult)).setBackgroundColor(getResources().getColor(R.color.green));
+			tvTitle.setTextColor(getResources().getColor(R.color.dark_green));
+			tvText.setTextColor(getResources().getColor(R.color.dark_green));
+		}else{
+			((LinearLayout) findViewById(R.id.llResult)).setBackgroundColor(getResources().getColor(R.color.red));
+			tvTitle.setTextColor(getResources().getColor(R.color.dark_red));
+			tvText.setTextColor(getResources().getColor(R.color.dark_red));
 		}
 		
 	}

@@ -27,7 +27,7 @@ public class QuestionsActivity extends Activity {
 	private ImageView iv;
 
 	private final Handler mHandler = new Handler();
-	private static final int RESET_TIME = 10000;
+	private static final int RESET_TIME = 45000;
 	
 	private final Runnable mReset = new Runnable() {
 		
@@ -138,6 +138,8 @@ public class QuestionsActivity extends Activity {
 				
 			}
 		});
+		
+		mHandler.postDelayed(mReset, RESET_TIME);
 
 	}
 
