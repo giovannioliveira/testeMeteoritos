@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">TesteDeMeteorito</string>
+    <string name="app_name">Teste De Meteorito</string>
     <string name="start_title">TESTE: É UM METEORITO?</string>
     <string name="start_info">Esse teste ajuda você a identificar se a amostra que escolheu é ou não um meteorito. 
         					  Ele é composto de perguntas que têm como resposta SIM ou NÃO e leva em consideração 
