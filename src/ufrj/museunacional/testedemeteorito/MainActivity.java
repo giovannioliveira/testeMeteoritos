@@ -21,8 +21,13 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(MainActivity.this, QuestionsActivity.class));
+				startActivity(new Intent(MainActivity.this, QuestionActivity.class));
 			}
 		});
+	}
+	
+	@Override
+	public void onBackPressed(){
+		
 	}
 }

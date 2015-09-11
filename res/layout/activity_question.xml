@@ -21,46 +21,23 @@
             android:orientation="vertical" >
 
             <ImageButton
-                android:id="@+id/btCloseQuestions"
+                android:id="@+id/btQuestionClose"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:padding="10dp"
                 android:background="@android:color/black"
+                android:padding="10dp"
                 android:src="@drawable/abc_ic_clear_mtrl_alpha" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tvQuestionTitle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/default_margin"
-            android:gravity="center_horizontal"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/medium_large_font" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:layout_marginBottom="@dimen/default_margin"
             android:gravity="center"
-            android:weightSum="2" >
-
-            <ImageView
-                android:id="@+id/ivQuestionImage"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@android:color/white" />
-
-            <TextView
-                android:id="@+id/tvQuestionText"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:padding="@dimen/default_margin"
-                android:textSize="@dimen/medium_font" />
-        </LinearLayout>
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/medium_large_font" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -88,6 +65,10 @@
         </LinearLayout>
     </LinearLayout>
 
+    <FrameLayout
+        android:id="@+id/click_interceptor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="75dp"
